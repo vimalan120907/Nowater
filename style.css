@@ -1,0 +1,62 @@
+body{
+    font-family: arial, sans-serif;
+    margin: 0;
+    background-color: #05ffeaed;
+    color: h#0acef1ec;
+}
+
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: #f1f0f0eb;
+    color: rgba(15, 15, 15, 0.938);
+}
+
+.header-section ul li a{
+    color: hsl(0, 100%, 3%);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.header-section ul li a:hover{
+    text-decoration: underline;
+    color: #3d0deb;
+}
+
+.cta-button{
+    background-color: #090007;
+    color: hsl(0,0%,100%);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.cta-button :hover{
+    background-color: #af1c32;
+    transform: translate(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+
+}
+
+.my biography{
+    background-color: hsl(118, 89%, 60%);
+    color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.footer section{
+    background-color:#fbb;
+    color: rgb(183 94 94);
+    padding: 10px;
+    text-align: center;
+    font: size 12px; ;
+
+}
+
+
